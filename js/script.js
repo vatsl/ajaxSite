@@ -45,7 +45,7 @@ function loadData() {
     var wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + cityStr + '&format=json';
     $.ajax({
         url: wikiUrl,
-        type: 'GET',
+        //type: 'GET',
         dataType: "jsonp",
         //jsonp: "callback"
         success: function(response){
