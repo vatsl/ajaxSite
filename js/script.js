@@ -40,7 +40,7 @@ function loadData() {
     //Wikipedia AJAR with CORS
     var wikiRequestTimeout = setTimeout(function(){
         $wikiElem.text("failed to get wikipedia resources")
-    }, 5000);
+    }, 8000);
     
     var wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + cityStr + '&format=json';
     $.ajax({
