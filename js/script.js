@@ -42,7 +42,7 @@ function loadData() {
         $wikiElem.text("failed to get wikipedia resources")
     }, 8000);
     
-    var wikiUrl = 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + cityStr + '&format=json';
+    var wikiUrl = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + cityStr + '&format=json';
     $.ajax({
         url: wikiUrl,
         //type: 'GET',
